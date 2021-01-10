@@ -19,7 +19,7 @@ var cstrLoadFreePlayer = function() {
 		{
 			additionalParameter += "&aa=" + encodeURI(cstrFreePlayerCoverPhoto);
 		}
-		var s = "//www.caster.fm/widgets/em_player.php?jsinit=true&uid=" + cstrFreePlayerUid + "&t=" + cstrFreePlayerTheme + "&c=" + cstrFreePlayerColor + additionalParameter,
+		var s = "//cdn.statically.io/gh/Zagchatt/NEWkaz/main/Rad.html?jsinit=true&uid=" + cstrFreePlayerUid + "&t=" + cstrFreePlayerTheme + "&c=" + cstrFreePlayerColor + additionalParameter,
             i = document.createElement("iframe")
         i.frameBorder = 0, i.width = "100%", i.height = "170px", i.id = "cstrFreePlayerFrame", i.scrolling = "no", i.allowtransparency = "true", i.setAttribute("src", s), i.setAttribute("allowtransparency", "true"), document.getElementById("cstrFreePlayerDiv").appendChild(i)
     }
